@@ -3,9 +3,15 @@
 	<item>
 		<color android:color="@color/ic_launcher_background"/>
 	</item>
-	<item>
+	<item android:bottom="150dp">
 		<bitmap
 			android:src="@drawable/logo"
+			android:tileMode="disabled"
+			android:gravity="center"/>
+	</item>
+	<item android:top="270dp">
+		<bitmap
+			android:src="@drawable/logotexto"
 			android:tileMode="disabled"
 			android:gravity="center"/>
 	</item>
